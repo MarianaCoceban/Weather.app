@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(0, 162, 255);
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+#container {
+    display: flex;
+    background-color: aliceblue;
+    gap: 40px;
+    padding: 30px;
+}
+
+#left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#left input {
+    height: 30px;
+}
+
+#left button {
+    height: 30px;
+    background-color: rgb(0, 162, 255);
+    color: aliceblue;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 20px;
+}
+
+#top {
+    background-color: rgb(0, 162, 255);
+    color: rgb(240, 242, 243);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+#forecast {
+    display: flex;
+    gap: 20px;
+}
+
+#forecast div {
+    background-color: rgb(156, 151, 151);
+    width: 25%;
+    color: rgb(240, 242, 243);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -12,53 +13,57 @@
         <h1>Weather</h1>
     </header>
 
-    <section>
-        <h3>City</h3>
-        <input type="text">
-        <button>Search</button>
-    </section>
+    <section id="container">
 
-    <section>
-        <div>
-            <h2>City</h2>
-            <h2>Date</h2>
-            <p>Temperature:</p>
-            <p>Wind:</p>
-            <p>Humidity:</p>
-        </div>
+        <section id="left">
+            <h3>City</h3>
+            <input type="text" placeholder="Ex. Chisinau, Barcelona">
+            <button>Search</button>
+        </section>
 
-        <div>
+        <section id="right">
+            <div id="top">
+                <h2>City (Date)</h2>
+                <p>Temperature:</p>
+                <p>Wind:</p>
+                <p>Humidity:</p>
+            </div>
+
             <h1>4-Days Forecast</h1>
 
-            <div>
-                <h2>Date</h2>
-                <p>Temperature:</p>
-                <p>Wind:</p>
-                <p>Humidity:</p>
+            <div id="forecast">
+                <div>
+                    <h2>Date</h2>
+                    <p>Temperature:</p>
+                    <p>Wind:</p>
+                    <p>Humidity:</p>
+                </div>
+
+                <div>
+                    <h2>Date</h2>
+                    <p>Temperature:</p>
+                    <p>Wind:</p>
+                    <p>Humidity:</p>
+                </div>
+
+                <div>
+                    <h2>Date</h2>
+                    <p>Temperature:</p>
+                    <p>Wind:</p>
+                    <p>Humidity:</p>
+                </div>
+
+                <div>
+                    <h2>Date</h2>
+                    <p>Temperature:</p>
+                    <p>Wind:</p>
+                    <p>Humidity:</p>
+                </div>
+
             </div>
 
-            <div>
-                <h2>Date</h2>
-                <p>Temperature:</p>
-                <p>Wind:</p>
-                <p>Humidity:</p>
-            </div>
+        </section>
 
-            <div>
-                <h2>Date</h2>
-                <p>Temperature:</p>
-                <p>Wind:</p>
-                <p>Humidity:</p>
-            </div>
-            
-            <div>
-                <h2>Date</h2>
-                <p>Temperature:</p>
-                <p>Wind:</p>
-                <p>Humidity:</p>
-            </div>
-
-        </div>
     </section>
 </body>
 
