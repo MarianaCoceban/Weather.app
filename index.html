@@ -17,47 +17,47 @@
 
         <section id="left">
             <h3>City</h3>
-            <input type="text" placeholder="Ex. Chisinau, Barcelona">
-            <button>Search</button>
+            <input id='cityName' type="text" placeholder="Ex. Chisinau, Barcelona">
+            <button onclick="displayWeatherData()">Search</button>
         </section>
 
         <section id="right">
             <div id="top">
                 <h2>City (Date)</h2>
-                <p>Temperature:</p>
-                <p>Wind:</p>
-                <p>Humidity:</p>
+                <p class="temperature">Temperature: <span></span>C</p>
+                <p class="wind">Wind: <span></span>m/s</p>
+                <p class="humidity">Humidity: <span></span>%</p>
             </div>
 
             <h1>4-Days Forecast</h1>
 
             <div id="forecast">
-                <div>
+                <div id="day1">
                     <h2>Date</h2>
-                    <p>Temperature:</p>
-                    <p>Wind:</p>
-                    <p>Humidity:</p>
+                    <p class="temperature">Temperature: <span></span>C</p>
+                    <p class="wind">Wind: <span></span>m/s</p>
+                    <p class="humidity">Humidity: <span></span>%</p>
                 </div>
 
-                <div>
+                <div id="day2">
                     <h2>Date</h2>
-                    <p>Temperature:</p>
-                    <p>Wind:</p>
-                    <p>Humidity:</p>
+                    <p class="temperature">Temperature: <span></span>C</p>
+                    <p class="wind">Wind: <span></span>m/s</p>
+                    <p class="humidity">Humidity: <span></span>%</p>
                 </div>
 
-                <div>
+                <div id="day3">
                     <h2>Date</h2>
-                    <p>Temperature:</p>
-                    <p>Wind:</p>
-                    <p>Humidity:</p>
+                    <p class="temperature">Temperature: <span></span>C</p>
+                    <p class="wind">Wind: <span></span>m/s</p>
+                    <p class="humidity">Humidity: <span></span>%</p>
                 </div>
 
-                <div>
+                <div id="day4">
                     <h2>Date</h2>
-                    <p>Temperature:</p>
-                    <p>Wind:</p>
-                    <p>Humidity:</p>
+                    <p class="temperature">Temperature: <span></span>C</p>
+                    <p class="wind">Wind: <span></span>m/s</p>
+                    <p class="humidity">Humidity: <span></span>%</p>
                 </div>
 
             </div>
@@ -66,5 +66,6 @@
 
     </section>
 </body>
+<script src="script.js"></script>
 
 </html>
